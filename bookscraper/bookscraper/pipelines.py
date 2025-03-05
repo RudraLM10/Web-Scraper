@@ -102,7 +102,7 @@ class SaveToMySQLPipeline:
         self.conn = mysql.connector.connect(
             host = 'localhost',
             user = 'root',
-            password = 'Pratikamrit123.', #add your password here if you have one set 
+            password = 'Password', #add your password here if you have one set 
             database = 'booksdata'
         )
 
