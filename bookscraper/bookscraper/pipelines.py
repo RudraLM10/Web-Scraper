@@ -68,7 +68,7 @@ class SaveToSQLDatabase:
         self.conn = mysql.connector.connect(
             host = 'localhost',
             user = 'root',
-            password = 'Pratikamrit123.',    # Type password of your mysql database
+            password = 'Password',    # Type password of your mysql database
             database = 'bookData'
         )
 
